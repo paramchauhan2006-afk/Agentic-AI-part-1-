@@ -1,0 +1,11 @@
+langchain
+langgraph
+google-adk
+google-genai
+pydantic
+python-dotenv
+pandas
+numpy
+scikit-learn
+statsmodels
+matplotlib
