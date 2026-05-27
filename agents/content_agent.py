@@ -14,7 +14,7 @@ api_key = os.environ.get("GEMINI_API_KEY")
 client = genai.Client(api_key=api_key) if api_key else genai.Client()
 
 # Default to gemini-2.5-flash-lite to avoid rate limit / 503 issues on the free tier
-DEFAULT_MODEL = "gemini-2.5-flash-lite"
+DEFAULT_MODEL = "gemini-3.5-flash"
 
 def run_content_agent(
     factual_summary: str,
