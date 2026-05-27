@@ -1,0 +1,21 @@
+# Sensitive configuration files
+.env
+.env.local
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
